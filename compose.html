@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compose</title>
+    <link rel="stylesheet" href="mailstyle.css"></head>
+<body>
+    <div style="background-color: gainsboro;">
+        <span style="font-size: 3em; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-weight: 600; margin-left: 20px; margin-right: 300px;">T-Mail</span>
+        <span>Search</span>
+        <form method="get" action="notfound.html"  style="display: inline;"><input type="text" style="width: 300px;"><input type="submit" value="GO"></form>
+    </div>
+    <table style="width: 95%; margin-top: 15px;">
+        <tr>
+            <td style="width: 10%;">
+
+                <a href="mail.html">Inbox</a> <br><br><br><br>
+                <a href="Sent.html">Sent</a><br><br><br><br>
+                <a href="Spam.html">Spam</a> <br><br><br><br>
+                <a href="Bin.html">Bin</a> <br><br><br><br>
+                
+            </td>
+            <td style="vertical-align: top;">
+                <table style="width: 100%;">
+                    <tr>
+                        <label for="to">To:</label>
+                        <input type="text" placeholder="abcde@Tmail.com" style="width: 90%;"><br><br>
+                        <label for="content">Type in your email</label>
+                        <textarea name="content" id="" cols="30" rows="10" style="width: 90%;"></textarea>
+                        <button type="submit">Send</button>
+                    </tr>                        
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
